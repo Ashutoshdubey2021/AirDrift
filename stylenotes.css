@@ -1,0 +1,54 @@
+.btn{
+    cursor: pointer;
+    border: 0;
+    background: transparent;
+    color: #ff7600;
+    font-size: 1rem;
+    padding: 0.5em;
+    display: inline-block;
+   
+
+}
+
+.title{
+    color:#ff7600;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 1;
+    font-size: 75px;
+    margin-left: 35%;
+
+
+}
+
+body{
+    margin:1em;
+    background-color:#000000;
+    color:white;
+    line-height:1.5;
+    font-family: sans-serif;
+
+}
+
+#choose{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    flex-direction: column;
+    margin: auto;
+   
+
+}
+
+.notesbtn{
+    cursor: pointer;
+    background-color: #ff7600;
+    padding: 10px;
+    color: white;
+    font-size: 40px;
+    margin-top: 5%;
+    /* align-items: vertical; */
+    border-radius: 6px;
+    
+
+}

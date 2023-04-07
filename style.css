@@ -1,0 +1,111 @@
+*,
+*::before,
+*::afer{
+    box-sizing: border-box;
+}
+
+:root{
+    --clr-icons:#929292;
+    --clr-text:#fff;
+    --clr-bg-dark: #242424;
+    --clr-bg-light: #3b3b3b;
+    --clr-accent: #ff7600;
+
+}
+
+body{
+    margin:1em;
+    background-color:#000000;
+    color:white;
+    line-height:1.5;
+    font-family: sans-serif;
+
+}
+
+img{
+    max-width: 100%;
+
+}
+
+.btn{
+    cursor: pointer;
+    border: 0;
+    background: transparent;
+    color: #ff7600;
+    font-size: 1rem;
+    padding: 0.5em;
+    display: inline-block;
+   
+
+}
+
+.title{
+    color:#ff7600;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 1;
+    font-size: clamp(3rem,10vw,10rem);
+    margin-left: 35%;
+
+
+}
+
+.description{
+    margin-top: 6%;
+    margin-left: 5%;
+    margin-right: 5%;
+   
+}
+
+
+
+.location{
+    color: #929292;
+    margin:0;
+    font-size: 1rem;
+    margin-bottom: 1.5em;
+    margin-left: 45%;
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin: 2em 0;
+}
+
+footer{
+    margin-top: 2em;
+}
+.nav {
+    /* outline: 2px solid red; */
+    flex-grow: 1;
+    display: flex;
+    justify-content:space-around;
+}
+.nav-link{
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+
+}
+
+.secondary-images{
+    display:flex;
+    gap: 0.5em;
+}
+.newspage{
+    background-color: #ff7600;
+    width:100%;
+    height: 100%;
+
+}
+.newspage h1{
+    font-size: 3.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color:white ;
+   
+    
+}
+
